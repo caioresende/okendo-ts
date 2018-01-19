@@ -1,0 +1,32 @@
+{
+  "name": "okendo-ts",
+  "version": "1.0.0",
+  "description": "This is an attempt of transcoding the whole previous project with a lot of enhancements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caioresende/okendo-ts.git"
+  },
+  "author": "Caio Resende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caioresende/okendo-ts/issues"
+  },
+  "homepage": "https://github.com/caioresende/okendo-ts#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
