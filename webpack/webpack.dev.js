@@ -1,3 +1,4 @@
+const path = require('path');
 var loaders = require("./loaders");
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -6,14 +7,7 @@ module.exports = {
     entry: ['./src/index.ts'],
     output: {
         filename: 'build.js',
-        path: 'dist'
-    },
-    resolve: {
-        root: __dirname,
-        extensions: ['', '.ts', '.js', '.json']
-    },
-    resolveLoader: {
-        modulesDirectories: ["node_modules"]
+        path: path.join(__dirname, "../dist")
     },
     devtool: "inline-eval-cheap-source-map",
     plugins: [

@@ -1,7 +1,7 @@
 module.exports = [
     {
         test: /\.ts(x?)$/, 
-        loader: 'ts-loader'
+        loader: 'awesome-typescript-loader'
     },
     {
         test: /\.css$/,
@@ -13,6 +13,6 @@ module.exports = [
     }, {
         test: /\.html$/,
         exclude: /node_modules/,
-        loader: 'raw'
+        loader: 'raw-loader'
     }
 ];
